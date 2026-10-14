@@ -12,7 +12,7 @@
 #include "firmware/include/fc_config.h"
 #include "firmware/include/hal.h"
 // 
-
+// hold boot0 followed by holding reset, wait for 1-1 to appear,then upload in DFU mode, (regards Noel, cc varun and nidhi)
 // ---------------------------------------------------------------------------
 // Hardware Pins & Serial Instances (STM32F411CE Black Pill Mappings)
 // ---------------------------------------------------------------------------
